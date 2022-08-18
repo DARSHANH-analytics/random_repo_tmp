@@ -51,10 +51,7 @@ def math_operation_via_postman():
 if __name__ == '__main__':
     v_host = "127.0.0.1"
     v_port = 8080
-    app.run(host=v_host, port=v_port,debug=True)
-
-
-
-
+    v_debug = True
+    app.run(host="127.0.0.1", port=8080,debug=v_debug)
 
 # calculator classes added
